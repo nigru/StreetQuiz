@@ -1,0 +1,11 @@
+{
+    "attribution": "Data \u00a9 OpenStreetMap (and) contributors, CC-BY-SA", 
+    "description": "", 
+    "bounds": "10.9795,48.0655,11.4313,48.3013", 
+    "name": "FFB", 
+    "minzoom": "0", 
+    "version": "1.0.0", 
+    "template": "", 
+    "maxzoom": "18", 
+    "center": "11.2482,48.1766,13"
+}
