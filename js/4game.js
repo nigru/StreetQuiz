@@ -45,11 +45,11 @@ var app = (function (a) {
    * the user is only allowed to place markers, if the next gamestate is 3 (question is shown; user can answer it)
    */
   a.map.click = function(e) {
-    a.map.clear();
     var mapCoord = a.map.map.getLonLatFromPixel(e.xy);
     var lonlat = a.helper.toCoordinates(a.map.map.getLonLatFromPixel(e.xy));
     a.dev.out('[' + lonlat.lon + ', ' + lonlat.lat + '],');
     if(gamestate == 3) {
+      a.map.clear();
       mark = new OpenLayers.Geometry.Point(mapCoord.lon, mapCoord.lat);
       a.map.placeMark(mark);
     }
