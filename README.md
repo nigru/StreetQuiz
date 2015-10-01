@@ -19,7 +19,7 @@ After you downloaded the project you just need to run following command in the p
 ```
 npm install
 ```
-Additonally you will need map tiles. You can create them by yourself or you can use our custom map tiles: [part1](http://nigru.github.io/StreetQuiz/tiles_part1.zip), [part2](http://nigru.github.io/StreetQuiz/tiles_part1.zip) (The file is splitted because of the github file size restriction). Just extract the tile folder into the project root directory and run
+Additonally you will need map tiles. You can create them by yourself (have a look at [TileMill](https://www.mapbox.com/tilemill/)) or you can use our custom map tiles: [part1](http://nigru.github.io/StreetQuiz/tiles_part1.zip), [part2](http://nigru.github.io/StreetQuiz/tiles_part1.zip) (The file is splitted because of the github file size restriction). Just extract the tile folder into the project root directory and run
 ```
 fly tiles
 ```
