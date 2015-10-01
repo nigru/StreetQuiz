@@ -1,5 +1,6 @@
 # StreetQuiz
-A simple street quiz.
+A simple street quiz.  
+Currently only available for the city "Fürstenfeldbruck" near Munich.
 
 ## Instructions
 After a click on 'start', you will see names of streets and buildings in the top bar.
@@ -18,6 +19,12 @@ After you downloaded the project you just need to run following command in the p
 ```
 npm install
 ```
+Additonally you will need map tiles. You can create them by yourself or you can use our [custom map tiles](http://nigru.github.io/StreetQuiz/tiles.zip). Just extract the tile folder into the project root directory and run
+```
+fly tiles
+```
+or extract it to "project-root/dist/tiles/".
+
 Now you can build the project with following command
 ```
 fly build
