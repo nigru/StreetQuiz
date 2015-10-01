@@ -15,7 +15,7 @@ You can see your current score in the panel on right.
 ## Download and build
 You are free to download this project and edit it. We used the build-tool [Fly](https://github.com/flyjs/fly), which is based on [node.js](https://nodejs.org/).
 
-After you downloaded the project you just need to run following command in the project direcory
+After you downloaded the project you just need to run following command in the project directory
 ```
 npm install
 ```
