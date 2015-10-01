@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>StreetQuiz</title>
+	<meta charset="UTF-8">
+	<link type="text/css" rel="stylesheet"  href="css/app.css" />
+</head>
+<body>
+	<div id="map" class="map">
+	</div>
+  <nav class="abovemap">
+	  <div id="txtBar" class="box bar center">
+				Click "start" to begin!
+		</div>
+		<div id="btnBar" class="center">
+			<a href="#" id="btn" class="btn btn-big">start</a>
+		</div>
+	</nav>
+	<div id="status" class="box abovemap status game hide">
+		<p>Score: <span id="score">#</span></p>
+		<p>Questions: <span id="questionCount">#</span></p>
+		<a href="#" type="button" id="restartBtn" class="btn btn-small">restart</a>
+	</div>
+	<div id="splash" class="splash-bg hide">
+	</div>
+	<div id="gameover" class="box abovemap status gameover hide">
+		<p>Game Over!</p>
+		<a href="#" type="button" id="splashBtn" class="btn btn-small btnok">Ok</a>
+	</div>
+
+	<script type="text/javascript" src="js/app.js"></script>
+</body>
+</html>

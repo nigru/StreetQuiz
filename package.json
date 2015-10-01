@@ -1,0 +1,7 @@
+{
+  "name": "StreetQuiz",
+  "description": "A simple street quiz.",
+  "devDependencies": {
+    "fly-uglify": "^1.0.0"
+  }
+}
