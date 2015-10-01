@@ -8,3 +8,29 @@ Now you can try to place a marker as close as possible to given street or buildi
 After you made a decision, you can click on 'solve'. This will check your answer and show the solution.
 
 For your answer you gain or lose points. In case your answer is closer than 50 meters to the street or building, you gain 10 points. Otherwise you lose 1 point for each meter, which your answer is away from the solution.
+
+You can see your current score in the panel on right.
+
+## Download and build
+You are free to download this project and edit it. We used the build-tool [Fly](https://github.com/flyjs/fly), which is based on [node.js](https://nodejs.org/).
+
+After you downloaded the project you just need to run following command in the project direcory
+```
+npm install
+```
+Now you can build the project with following command
+```
+fly build
+```
+This will create a build without the dev tool. To build the project including the dev tool run:
+```
+fly dev
+```
+The dev tool can be activated in bottom right of the app. It shows you an overview all streets and buildings, which can be shown on the map.
+
+Alternativly you can run
+```
+fly
+```
+This watches for changes in the project and automatically builds it.
+
