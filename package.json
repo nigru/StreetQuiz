@@ -2,6 +2,7 @@
   "name": "StreetQuiz",
   "description": "A simple street quiz.",
   "devDependencies": {
+    "fly": "^0.8.3",
     "fly-uglify": "^1.0.0"
   }
 }
