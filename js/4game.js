@@ -64,7 +64,7 @@ var app = (function (a) {
         // show start
         a.helper.hideElement(document.getElementById('gameover'));
         a.helper.hideElement(document.getElementById('splash'));
-        txtBar.innerHTML = 'Click "start" to begin!';
+        txtBar.innerHTML = 'Click "start"';
         gameBtn.innerHTML = 'start';
         gamestate = 1;
         break;
